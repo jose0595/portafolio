@@ -1,12 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portafolio Personal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+        .section {
+            padding: 50px 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>este es mi primer proyecto</h1>
+    <header>
+        <h1>Mi Portafolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#portfolio">Portafolio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>Sobre Mí</h2>
+            <p>Desarrollador web con experiencia en diseño moderno y funcional.</p>
+        </section>
+        <section id="portfolio" class="section">
+            <h2>Portafolio</h2>
+            <p>Algunos de mis mejores trabajos.</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contacto</h2>
+            <p>Puedes encontrarme en redes sociales.</p>
+        </section>
+    </div>
 </body>
 </html>
